@@ -50,7 +50,7 @@ const Navbar = () => {
             <div className="w-full flex justify-between items-center mb-[5rem]">
               <div className="cursor-pointer p-0" onClick={() => setNav(false)}>
                 <Link to="/">
-                  <img src="/ebs_logo.png" alt="ebs_logo" />
+                  <img src="/cinf_icon.png" alt="cinf_logo" />
                 </Link>
               </div>
               <div className="cursor-pointer" onClick={() => setNav(false)}>

@@ -16,7 +16,7 @@ const Gallery = () => {
           <h1 className="font-Playfair font-bold text-2xl md:text-4xl text-primary-blue text-center">
             Our Gallery
           </h1>
-          <div className="flex mt-10 rounded-lg overflow-hidden">
+          <div className="flex flex-row md:flex-col mt-10 rounded-lg overflow-hidden">
             <div className="w-full md:w-1/3 flex flex-col">
               <img src={ImageOne} alt="" className="w-full" />
               <img src={ImageTwo} alt="" className="w-full" />
