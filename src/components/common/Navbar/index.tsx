@@ -19,9 +19,6 @@ const Navbar = () => {
           </Link>
           <div className="gap-8 items-center hidden md:flex">
             <Link to="#" className="text-black text-xl">
-              TES
-            </Link>
-            <Link to="#" className="text-black text-xl">
               Gallery
             </Link>
             <Link to="#" className="text-black text-xl">
