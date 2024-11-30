@@ -11,12 +11,12 @@ import ImageNine from "../../../../assets/IMG-20240915-WA0018.jpg";
 const Gallery = () => {
   return (
     <>
-      <div className="w-full">
-        <div className="w-full md:max-w-[1200px] mx-auto py-10">
+      <div className="w-full" id="gallery">
+        <div className="w-full md:max-w-[1200px] mx-auto py-10 px-5">
           <h1 className="font-Playfair font-bold text-2xl md:text-4xl text-primary-blue text-center">
             Our Gallery
           </h1>
-          <div className="flex flex-row md:flex-col mt-10 rounded-lg overflow-hidden">
+          <div className="flex md:flex-row flex-col mt-10 rounded-lg overflow-hidden">
             <div className="w-full md:w-1/3 flex flex-col">
               <img src={ImageOne} alt="" className="w-full" />
               <img src={ImageTwo} alt="" className="w-full" />

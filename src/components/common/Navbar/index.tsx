@@ -10,6 +10,7 @@ const Navbar = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, [pathname]);
+
   return (
     <>
       <div className="w-full bg-white font-Poppins py-5 px-5">
@@ -18,7 +19,7 @@ const Navbar = () => {
             <img src="/cinf_icon.png" className="h-12" alt="cinf_icon" />{" "}
           </Link>
           <div className="gap-8 items-center hidden md:flex">
-            <Link to="#" className="text-black text-xl">
+            <Link to="#gallery" className="text-black text-xl">
               Gallery
             </Link>
             <Link to="#" className="text-black text-xl">
@@ -29,7 +30,7 @@ const Navbar = () => {
             </Link>
           </div>
           <TfiMenu
-            className="md:hidden cursor-pointe text-2xl text-primary-blue"
+            className="md:hidden cursor-pointer text-2xl text-primary-blue"
             onClick={() => setNav(true)}
           />
         </div>
@@ -37,7 +38,7 @@ const Navbar = () => {
           className={
             nav
               ? "w-full h-full z-50 fixed left-0 top-0 bg-gray-900/70 text-white md:hidden backdrop-blur"
-              : ""
+              : "hidden"
           }
         >
           <div
@@ -50,7 +51,7 @@ const Navbar = () => {
             <div className="w-full flex justify-between items-center mb-[5rem]">
               <div className="cursor-pointer p-0" onClick={() => setNav(false)}>
                 <Link to="/">
-                  <img src="/cinf_icon.png" alt="cinf_logo" />
+                  <img src="/cinf_icon.png" className="h-12" alt="cinf_icon" />{" "}
                 </Link>
               </div>
               <div className="cursor-pointer" onClick={() => setNav(false)}>
@@ -61,7 +62,7 @@ const Navbar = () => {
               <Link to="#" className="text-black text-xl">
                 TES
               </Link>
-              <Link to="#" className="text-black text-xl">
+              <Link to="#gallery" className="text-black text-xl">
                 Gallery
               </Link>
               <Link to="#" className="text-black text-xl">
