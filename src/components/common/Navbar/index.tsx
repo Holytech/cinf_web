@@ -19,14 +19,14 @@ const Navbar = () => {
             <img src="/cinf_icon.png" className="h-12" alt="cinf_icon" />{" "}
           </Link>
           <div className="gap-8 items-center hidden md:flex">
+            <Link to="#" className="text-black text-xl">
+              Our Mission
+            </Link>
+            <Link to="#" className="text-black text-xl">
+              Our Focus
+            </Link>
             <Link to="#gallery" className="text-black text-xl">
               Gallery
-            </Link>
-            <Link to="#" className="text-black text-xl">
-              Our Impact
-            </Link>
-            <Link to="#" className="text-black text-xl">
-              Contact Us
             </Link>
           </div>
           <TfiMenu
