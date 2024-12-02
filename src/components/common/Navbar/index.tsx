@@ -60,16 +60,13 @@ const Navbar = () => {
             </div>
             <div className="flex flex-col gap-8 text-primary-blue justify-between h-fit mb-[50px]">
               <Link to="#" className="text-black text-xl">
-                TES
+                Our Mission
+              </Link>
+              <Link to="#" className="text-black text-xl">
+                Our Focus
               </Link>
               <Link to="#gallery" className="text-black text-xl">
                 Gallery
-              </Link>
-              <Link to="#" className="text-black text-xl">
-                Our Impact
-              </Link>
-              <Link to="#" className="text-black text-xl">
-                Contact Us
               </Link>
             </div>
           </div>
